@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @media screen and (max-width:600px){
+        div{
+            background-color: orange ;
+        }
+       }
+       @media screen and (min-width:500px){
+        div{
+            background-color:green;
+        }
+        
+       }
+       
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+        <label class="center" for="firstName">FirstName</label><br>
+        <input class="center" type="firstName" name="FName" id="firstName" required><br><br>
+        <label class="center" for="lastName">LastName</label><br>
+        <input class="center" type="lastName" name="LName" id="lastName" required><br><br>
+        <label class="center" for="email">Email</label><br>
+        <input class="center" type="email" name="email" id="email" required><br><br>
+        <label class="center" for="password">Password</label><br>
+        <input class="center" type="password" name="pass" id="password" required><br><br>
+        <input class="center" type="submit" value="submit"><br>
+    </div>
+</body>
+</html>
